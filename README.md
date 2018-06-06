@@ -1,7 +1,9 @@
 # CitiesConnected
 
-Compile with javac Connected.java
-Run with "java Connected filename startCity> endCity
+Compile with "javac Connected.java"
+
+
+Run with "java Connected filename startCity endCity
 
 Two word cities should be enclosed in quotations on command line like "New York"
 
