@@ -16,10 +16,15 @@ The file might look something like:
 
 
 Philadelphia, Pittsburgh
+
 Boston, New York
+
 Philadelphia, New York
-Los Angeles, San Diego
+
+Los Angeles, San Dieg
+
 New York, Croton-Harmon
+
 St. Petersburg, Tampa
 
 
@@ -38,14 +43,23 @@ and will output a single line stating "yes" or "no"
 Here are some sample interactions, assuming the example file above is named "cities.txt"
 
 
-> java Connected cities.txt "New York" Boston
+java Connected cities.txt "New York" Boston
+
 yes
-> java Connected cities.txt Boston Pittsburgh
+
+java Connected cities.txt Boston Pittsburgh
+
 yes
-> java Connected cities.txt Boston Tampa
+
+java Connected cities.txt Boston Tampa
+
 no
-> java Connected cities.txt Boston Ypsilanti
+
+java Connected cities.txt Boston Ypsilanti
+
 no
+
+
 Notes
 --------------------------------
 Commas will not appear within city names in the file. For example, "Washington, D.C." will not appear in the file as a city name.
