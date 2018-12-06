@@ -1,4 +1,4 @@
-# CitiesConnected
+# Cities-Connected
 
 This was an interview question I received from a brokerage firm in New York City
 
