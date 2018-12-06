@@ -1,9 +1,10 @@
 # CitiesConnected
 
+This was an interview question I received from a brokerage firm in New York City
+
 Compile with "javac Connected.java"
 
-
-Run with "java Connected filename startCity endCity
+Run with "java Connected <filename> <start city> <end city>
 
 Two word cities should be enclosed in quotations on command line like "New York"
 
